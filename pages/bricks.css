@@ -1,4 +1,3 @@
-
 section#game-section {
     width: 500px;
     height:380px;
@@ -6,12 +5,12 @@ section#game-section {
     text-align: center;
     position: relative;
     margin: auto;
-    margin-bottom: 10000px;
+    margin-bottom: 100000px;
      z-index: 900;
 }
 
 div#gameBackground {
-background-color: #000000b3;
+background-color: #000;
 position: fixed;
 width: 200%;
 height: 100%;
@@ -25,7 +24,7 @@ display: block;
 canvas#gameCanvas {
     width: 480px;
     height:320px;
-    background-color: #cec6c6;
+    background-color: #000;
     position: relative;
     top:10px;
     display: block;
